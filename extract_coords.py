@@ -46,7 +46,3 @@ def process_images_in_folder(root_folder):
             output_path = os.path.join(root, excel_filename)
             wb.save(output_path)
             print(f"✅ Saved Excel: {output_path}")
-
-if __name__ == "__main__":
-    root_folder = input("Enter the path to your image folder: ")
-    process_images_in_folder(root_folder)
