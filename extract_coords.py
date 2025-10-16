@@ -5,7 +5,8 @@ import re
 import openpyxl
 
 # Path to your Tesseract executable (modify as needed)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\Chirayu Chawande\AppData\Local\Programs\Tesseract-OCR"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Users\Chirayu Chawande\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+
 # Regex pattern for extracting coordinates
 lat_lon_pattern = r"Lat\s+([0-9]+\.[0-9]+)°?\s+Long\s+([0-9]+\.[0-9]+)°?"
 
